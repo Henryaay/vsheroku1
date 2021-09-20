@@ -1,0 +1,18 @@
+{
+    "name": "VLESS",
+    "description": "Deploy VLESS on Heroku.",
+    "keywords": ["VLESS"],
+    "env": {
+        "CADDYIndexPage": {
+            "description": "After the custom CADDY deployment is completed, click on the display page of View，reference readme.md",
+            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+        },
+        "ID": {
+            "description": "VLESS ID, use uuid generator",
+            "value": "6916a481-1bc2-47b8-ae33-4cedef38a1f3"
+        }
+    },
+    "repository": "",
+    "stack": "container",
+    "network": "host"
+}
